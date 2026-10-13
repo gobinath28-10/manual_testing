@@ -1,6 +1,52 @@
-manual questions 
-
-
-1. error 
-A mistake in a code is error 
-
+Package:
+   1.It is nothing but a folder
+   2.It is used to maintain a code in foldered structure
+   note: Lowercase of the package name.
+   
+class:
+   1.Class is a blueprint or template for creating object.
+   2.Class contains properties and function.
+   
+Data types:
+   Primitive:
+     1.byte
+	 2.short
+	 3.int
+	 4.float
+	 5.double
+	 6.char
+	 7.boolean
+	 8.long
+	 
+   Non-primitive
+     1.String 
+	 2.Array 
+	 3.Class
+	 4.Interface,etc
+	 
+Methods:
+   1.Methods are used to perform certain action, and they are also known as functions.
+   2.Mostly used to perform any of the repitative  tasks.
+   
+Syntax:
+    //access modifier return type name(){
+	//}
+  Example;
+     Public void create_video(){
+     }
+	 default boolean uploadvideos(){
+	   System.out.print(uploadvideos);
+	   return true;
+	 }
+	 youtuber yt = new youtuber();
+	 
+Method overloading and their parameters:
+   (Pass the parameter in bracket)
+   Private void deletevideo(String videoId){
+   ]
+  Overloading concept Example
+   Create a object for a class youtube
+   Youtube yt = new Youtube();
+   yt.deletevideo("1 1 0 a b 1 2 3");
+   System.out.print("123")l;  (how the println accept all the data types)
+   overloading: Same method name,function name but different arguments.
